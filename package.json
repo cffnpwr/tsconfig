@@ -1,0 +1,27 @@
+{
+  "name": "@cffnpwr/tsconfig",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Shared TypeScript base configurations for cffnpwr",
+  "homepage": "https://github.com/cffnpwr/tsconfig",
+  "bugs": "https://github.com/cffnpwr/tsconfig/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cffnpwr/tsconfig.git"
+  },
+  "license": "MIT",
+  "author": "cffnpwr",
+  "type": "module",
+  "exports": {
+    ".": "./base.json",
+    "./base": "./base.json",
+    "./bun": "./bun.json",
+    "./node": "./node.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "base.json",
+    "bun.json",
+    "node.json"
+  ]
+}
