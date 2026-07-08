@@ -2,6 +2,7 @@
 
 [![GitHub License](https://img.shields.io/github/license/cffnpwr/tsconfig?style=flat)](./LICENSE)
 [![npm Version](https://img.shields.io/npm/v/%40cffnpwr%2Ftsconfig?style=flat)](https://www.npmjs.com/package/@cffnpwr/tsconfig)
+[![JSR Version](https://jsr.io/badges/@cffnpwr/tsconfig)](https://jsr.io/@cffnpwr/tsconfig)
 
 cffnpwrのためのTypeScript共通ベース設定です。
 
@@ -25,10 +26,22 @@ cffnpwrのためのTypeScript共通ベース設定です。
 npm install -D @cffnpwr/tsconfig
 ```
 
+または
+
+```sh
+npx jsr add -D @cffnpwr/tsconfig
+```
+
 ### pnpm
 
 ```sh
 pnpm add -D @cffnpwr/tsconfig
+```
+
+または
+
+```sh
+pnpm dlx jsr add -D @cffnpwr/tsconfig
 ```
 
 ### Bun
@@ -37,10 +50,22 @@ pnpm add -D @cffnpwr/tsconfig
 bun add -D @cffnpwr/tsconfig
 ```
 
+または
+
+```sh
+bunx jsr add -D @cffnpwr/tsconfig
+```
+
 ### Deno
 
 ```sh
 deno add -D npm:@cffnpwr/tsconfig
+```
+
+または
+
+```sh
+deno add -D jsr:@cffnpwr/tsconfig
 ```
 
 ## 使い方
