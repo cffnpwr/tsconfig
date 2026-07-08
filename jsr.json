@@ -1,0 +1,10 @@
+{
+  "name": "@cffnpwr/tsconfig",
+  "version": "0.1.0",
+  "exports": {
+    ".": "./base.json",
+    "./base": "./base.json",
+    "./bun": "./bun.json",
+    "./node": "./node.json"
+  }
+}
