@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/cffnpwr/tsconfig/compare/v1.0.0...v1.0.1) (2026-07-17)
+
+
+### Bug Fixes
+
+* **ci:** add # main anchor comment to cffnpwr/actions workflow pins ([#7](https://github.com/cffnpwr/tsconfig/issues/7)) ([019ac19](https://github.com/cffnpwr/tsconfig/commit/019ac1915d6ca6f6f59b08bec15ff5769e6cf2b1))
+
 ## [1.0.0](https://github.com/cffnpwr/tsconfig/compare/v0.1.0...v1.0.0) (2026-07-08)
 
 
